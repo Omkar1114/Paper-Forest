@@ -1,16 +1,74 @@
 body {
-	font-family: 'Acme', sans-serif;
-	background-color: #f7f7f7;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff1c1;
 }
 
-.search-bar {
-	border: none;
-	float: left;
-	border-radius: 2rem;
+.jumbotron {
+	background-color: rgb(252, 154, 88);
 }
 
+.navbar {
+	.navbar-toggler {
+		border: none;
+	}
 
+	.navbar-brand {
+		font-family: 'Pacifico', cursive;
+	}
 
-.navbar-brand {
-	font-family: 'Pacifico', cursive;
+	.search-bar {
+		border: none;
+	}
+
+	.nav-item {
+		padding-right: 0.1rem;
+	}
+}
+
+.card-title {
+	font-family: 'Fredoka One', cursive;
+}
+
+.card {
+	margin-top: 2rem;
+	border-radius: .7rem;
+	text-align: center;
+
+	img {
+		max-height: 300px;
+		max-width: 300px;
+		border-top-left-radius: .7rem;
+		border-top-right-radius: .7rem;
+	}
+}
+
+#footer {
+	background-color: #3e4149;
+
+	.navbar-brand {
+		font-family: 'Pacifico', cursive;
+	}
+}
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		.navbar-brand {
+			font-size: 0.1rem;
+		}
+	}
+
+	#header {
+		h1 {
+			font-size: 2rem;
+			margin-top: 0;
+		}
+	}
+
+	.fix {
+		padding-left: 6rem;
+	}
 }

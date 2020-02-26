@@ -23,21 +23,27 @@
       </a>
     
       <form class="form-inline ">
-        <div class="input-group">
+        <!-- <div class="input-group">
           <input class="form-control search-bar bg-info " type="search" placeholder="Search" aria-label="Search">
-          <!-- <button class="bg-info" type="submit"><i class="fa fa-search"></i></button> -->
-          <!-- <div class="input-group-append">
-            <span class="input-group-text red lighten-3 search-bar" type="submit"><i class="fas fa-search text-grey"
+          <button class="bg-info" type="submit"><i class="fa fa-search"></i></button>
+          <div class="input-group-append">
+            <span class="input-group-text lighten-3 bg-info" type="submit" style="margin-left: -50px; z-index: 3; border-radius: 40px; background-color: transparent;"><i class="fas fa-search text-grey"
                 aria-hidden="true"></i></span>
-          </div> -->
-        </div>
+          </div>
+        </div> -->
+        <div class="input-group">
+    			<input class="form-control search-bar bg-info" type="search" placeholder="Search" aria-label="Search" style="padding-left: 20px; border-radius: 40px;">
+    			<div class="input-group-addon" style="margin-left: -50px; z-index: 3; border-radius: 40px;">
+    				<button class="btn btn-info" type="submit" style="border-radius: 20px;"><i class="fa fa-search"></i></button>
+    			</div>
+		  	</div>
       </form>
     
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
     
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item active px-1">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/Paper-Forest">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-1">
             <a class="nav-link" href="#">About</a>
@@ -46,10 +52,10 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item px-1">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="/Paper-Forest/templates/login/login.php">Login</a>
           </li>
           <li class="nav-item px-1">
-            <a class="nav-link btn btn-outline-primary d-none-sm" href="#">Sign-up</a>
+            <a class="nav-link btn btn-outline-primary d-none-sm" href="/Paper-Forest/templates/login/sign-up.php">Sign-up</a>
           </li>
         </ul>
       </div>
